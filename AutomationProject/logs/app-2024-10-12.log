@@ -1,0 +1,7 @@
+[INFO ] 2024-10-12 06:36:46.687 [TestNG-test-Test-2] Log4jDemo - Test Started
+[WARN ] 2024-10-12 06:36:48.314 [TestNG-test-Test-2] Log4jDemo - This is a warning message
+[INFO ] 2024-10-12 06:37:42.010 [TestNG-test-Test-2] Log4jDemo - Test Started
+[INFO ] 2024-10-12 06:39:50.666 [TestNG-test-Test-2] Log4jDemo - Test Started
+[WARN ] 2024-10-12 06:39:52.202 [TestNG-test-Test-2] Log4jDemo - This is a warning message
+[INFO ] 2024-10-12 06:49:37.727 [TestNG-test-Test-1] Log4jDemo - Test Started
+[WARN ] 2024-10-12 06:49:38.848 [TestNG-test-Test-1] Log4jDemo - This is a warning message

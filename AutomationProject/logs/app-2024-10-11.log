@@ -1,0 +1,10 @@
+[INFO ] 2024-10-11 14:13:43.446 [TestNG-test-Test-1] Log4jDemo - Test Started
+[WARN ] 2024-10-11 14:13:45.109 [TestNG-test-Test-1] Log4jDemo - This is a warning message
+[INFO ] 2024-10-11 14:15:09.576 [TestNG-test-Test-2] Log4jDemo - Test Started
+[WARN ] 2024-10-11 14:15:11.117 [TestNG-test-Test-2] Log4jDemo - This is a warning message
+[INFO ] 2024-10-11 14:15:51.581 [TestNG-test-Test-2] Log4jDemo - Test Started
+[WARN ] 2024-10-11 14:15:53.162 [TestNG-test-Test-2] Log4jDemo - This is a warning message
+[INFO ] 2024-10-11 14:18:18.136 [TestNG-test-Test-2] Log4jDemo - Test Started
+[WARN ] 2024-10-11 14:18:21.074 [TestNG-test-Test-2] Log4jDemo - This is a warning message
+[INFO ] 2024-10-11 14:21:31.647 [TestNG-test-Test-2] Log4jDemo - Test Started
+[WARN ] 2024-10-11 14:21:33.228 [TestNG-test-Test-2] Log4jDemo - This is a warning message

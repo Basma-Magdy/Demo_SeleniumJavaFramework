@@ -1,0 +1,95 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- to run the same tests in parallel on multiple browsers -->
+<suite name="Suite" parallel="tests" thread-count="5" >
+
+<!-- 
+	<listeners>
+		<listener class-name= "listener.TestNGListener"> </listener>
+	</listeners>
+-->
+		
+	<parameter name="BrowserName" value="chrome"/>
+	<test name="test1">
+	<classes> 
+  	     <class name="Tests.GoogleSearchTest"/>
+
+    </classes> 
+    
+	</test>
+
+	<!-- Grouping Example
+	
+	<parameter name="BrowserName" value="chrome"/>
+	<test name="testgroup">
+		<groups>
+		
+			<define name="Regression">
+					<include name="Regression1"></include>
+					<include name="sanity"></include>
+			</define>
+			
+			
+			<run>
+			    <include name="windows.*"></include>
+				<include name="Regression"></include> 
+				<exclude name="smoke"></exclude>-
+				<include name="allClassTests"></include>
+				
+			</run>
+		
+		</groups>
+	
+	  <classes> 
+  	   <class name="Tests.TestingTestCases"> </class>
+    </classes> 
+    
+	</test>
+
+
+ -->
+<!-- Multiplle browser parallel testing , same class tests but with different value for the browser parameter, which makes the 
+same tests run on different browser at the same time, and i has to ass parallel and thread counts in the suite level in this case -->
+<!-- <test name = "TestOnChrome">
+	<parameter name="BrowserName" value="chrome"></parameter>
+    <classes> 
+  	   <class name="Tests.TestingTestCases"> </class>
+    </classes> 
+</test>
+     
+ <test name = "TestOnFirefox">
+	<parameter name="BrowserName" value="firefox"></parameter>
+    <classes> 
+  	   <class name="Tests.TestingTestCases"> </class>
+    </classes> 
+</test>
+-->
+
+
+<!-- <test thread-count="5" parallel="classes" name="Test"> -->
+  
+ <!-- we can run the whole package classes like that
+  <packages>
+  <package name = "Tests"> </package>
+  </packages>-->
+   <!--
+
+ <parameter name="BrowserName" value="firefox"></parameter>
+  <classes> 
+  
+  <! run  different classes at the same time and should add parallel in test level i want them at the same time 
+  otherwise it will be run in series no parallel >
+  
+       <class name="Tests.ExtentReportWithTestNG"/>
+       <class name="Tests.TestingTestCases"></class>
+       <class name="Tests.GoogleSearchTest">
+	     <methods>
+	     	 <exclude name = "GoogleSearch2"/>
+	     </methods>
+	   </class>
+    </classes> 
+    
+   
+  </test>
+   -->
+</suite> 
