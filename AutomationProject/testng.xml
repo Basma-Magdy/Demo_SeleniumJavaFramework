@@ -12,7 +12,7 @@
 	<parameter name="BrowserName" value="chrome"/>
 	<test name="test1">
 	<classes> 
-  	     <class name="Tests.GoogleSearchTest"/>
+  	     <class name="Tests.TestingTestCases"/>
 
     </classes> 
     

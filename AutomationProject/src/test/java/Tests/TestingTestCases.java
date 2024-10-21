@@ -31,8 +31,8 @@ public class TestingTestCases {
     @Parameters({"BrowserName", "Myname"})
 	@BeforeTest(groups = "sanity")
 	public void  SetUpTest(String BrowserName, @Optional("Basma") String MyName) {
-		
-		//ConfigurationClass.getProperties();
+
+    	ConfigurationClass.getProperties();
 
 		if(BrowserName.equalsIgnoreCase("chrome"))
 		{
